@@ -28,7 +28,7 @@ class Move(chess.Move):
     promotion = None
     drop = None
 
-    def __init__(self, from, to, promotion, drop):
+    def __init__(self, from_square, to_square, promotion, drop):
         super()
 
     #uci()->str
